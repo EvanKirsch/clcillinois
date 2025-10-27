@@ -1,3 +1,4 @@
+# Formats and prints a list, highlighting the index specified in the console
 def my_list_formatter(my_list, index_to_highlight=-1):
     border = " "
     center = "| "
