@@ -1,1 +1,10 @@
+# Python files
 python/__pycache__/
+
+# Java files
+*.class
+
+# C/Cpp files
+c/ptr/main
+c/ptr/statistics.txt
+*.o
