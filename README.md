@@ -1,2 +1,2 @@
 # clcillinois
-scripts for use at clc
+scripts and examples for use at clc
