@@ -13,6 +13,7 @@ Scripts and examples for use at clc
 ## CIT-141 : Programming in C++
   - [Hello World](c/hello) - quick example to get you past the main method syntax and makefile
   - [Pointers](c/ptr) - example of pointers and dereferencing
+  - [File I/O](c/ptr/main.c) - see `in_file` and `out_file` for examples of File I/O
 
 ## CIT-142 : Programming in Python
   - [User inputs](python/Cli_io.py)
@@ -20,6 +21,9 @@ Scripts and examples for use at clc
     - [For Loops](python/For_Loops.py)
     - [While Loops](python/While_Loops.py)
   - [Recursion](python/Recursion.py)
+
+## MCS-141 : Computer Science I
+  - [Hello World](java/HelloWorld.java)
 
 ## MCS-142 : Computer Science II
   - Sorting Algorithms
