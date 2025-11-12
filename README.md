@@ -1,6 +1,12 @@
 # clcillinois
 Scripts and examples for use at clc
 
+## CIT-132 : Intro to Linux
+  - [Command Cheat Sheet](unix-reference.pdf)
+  - The Unix Philosophy
+    - A program should do one thing and do it well
+    - Programs should work together
+
 ## CIT-134 : Intro to Programming Concepts:
   - Loops
     - [For Loops](python/For_Loops.py)
