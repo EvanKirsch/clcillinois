@@ -32,10 +32,13 @@ Scripts and examples for use at clc
   - [Hello World](java/HelloWorld.java)
   - [Method Calls](java/Prime.java) - See the call and return of `isPrime()`
   - [Conditionals](java/Prime.java) - See the if/else contition of `isPrime()` in the while loop
-  - [Loops](java/Prime.java) - See the while loop of `isPrime()`
+  - Loops
+    - [For Loops]](java/MaximiumFinder.java) - See the for loop of `findMaxiumim()`
+    - [While Loops]](java/Prime.java) - See the while loop of `isPrime()`
   - Recursion
     - [Java Example](java/BinarySearchTree.java) - See the method `find(long, int)`. This method is calling itself to navigate through the tree
     - [Python Examples](python/Recursion.java) 
+  - [Arrays](java/MaximumFinder.java)
 
 ## MCS-142 : Computer Science II
   - Sorting Algorithms
