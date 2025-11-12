@@ -4,7 +4,9 @@ python/__pycache__/
 # Java files
 *.class
 
-# C/Cpp files
-c/ptr/main
+# Output files
 c/ptr/statistics.txt
+
+# C/Cpp compiled files
+c/*/main
 *.o
