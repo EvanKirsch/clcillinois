@@ -39,6 +39,7 @@ Scripts and examples for use at clc
     - [Java Example](java/BinarySearchTree.java) - See the method `find(long, int)`. This method is calling itself to navigate through the tree
     - [Python Examples](python/Recursion.java) 
   - [Arrays](java/MaximumFinder.java)
+  - [File I/O](java/DecodeTape/DecodeTape.java) = This reads in the file `tape.test.in.txt`
 
 ## MCS-142 : Computer Science II
   - Sorting Algorithms
