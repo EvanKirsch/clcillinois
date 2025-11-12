@@ -237,6 +237,8 @@ public class TopologicalSort {
         while((tempEdge = bufferedReader.readLine()) != null) {
             t.readEdge(tempEdge);
         }
+        sc.close();
+        bufferedReader.close();
 
         System.out.println(t.toString());
         System.out.println(t.topoSort());
