@@ -24,6 +24,12 @@ Scripts and examples for use at clc
 
 ## MCS-141 : Computer Science I
   - [Hello World](java/HelloWorld.java)
+  - [Method Calls](java/Prime.java) - See the call and return of `isPrime()`
+  - [Conditionals](java/Prime.java) - See the if/else contition of `isPrime()` in the while loop
+  - [Loops](java/Prime.java) - See the while loop of `isPrime()`
+  - Recursion
+    - [Java Example](java/BinarySearchTree.java) - See the method `find(long, int)`. This method is calling itself to navigate through the tree
+    - [Python Examples](python/Recursion.java) 
 
 ## MCS-142 : Computer Science II
   - Sorting Algorithms
