@@ -40,7 +40,13 @@ Scripts and examples for use at clc
     - [Python Examples](python/Recursion.java) 
   - [Arrays](java/MaximumFinder.java)
   - [File I/O](java/DecodeTape/DecodeTape.java) - This reads in the file `tape.test.in.txt`
-
+  - OOP Principles
+    - [Sort Interface](java/sorter/ISorter.java) - Interfaces play an important role in dependancy inversion and injection
+      - [Merge Sort Implemention](java/sorter/MergeSortImpl.java)
+      - [Quick Sort Implemention](java/sorter/QuickSortImpl.java)
+      - [Selection Sort Implemention](java/sorter/SelectionSortImpl.java)
+    - [Simple Factory Pattern](java/sorter/SimpleSorterFactory.java) - Tried and tested OOP design patterns can be used to produce clean, predictable, extendable code. See "Design Patterns: Elements of Reusable Object-Oriented Software".
+    
 ## MCS-142 : Computer Science II
   - Sorting Algorithms
     - [Selection Sort](python/Selection_Sort.py) - Simplest sorting impl compares each element to the entire list
