@@ -1,2 +1,31 @@
 # clcillinois
-scripts and examples for use at clc
+Scripts and examples for use at clc
+
+## CIT-134 : Intro to Programming Concepts:
+  - Loops
+    - [For Loops](python/For_Loops.py)
+    - [While Loops](python/While_Loops.py)
+  - Sorting Algorithms
+    - [Selection Sort](python/Selection_Sort.py) - Simplest sorting impl compares each element to the entire list
+    - [Merge Sort](python/Merge_Sort.py) - Recursively  splits up list then merges lists back together sorting them as they are merged.
+    - [Quick Sort](python/Quick_Sort.py) - Sorts by selecting a pivot and recursively sorts sub lists.
+
+## CIT-141 : Programming in C++
+  - [Hello World](c/hello) - quick example to get you past the main method syntax and makefile
+  - [Pointers](c/ptr) - example of pointers and dereferencing
+
+## CIT-142 : Programming in Python
+  - [User inputs](python/Cli_io.py)
+  - Loops
+    - [For Loops](python/For_Loops.py)
+    - [While Loops](python/While_Loops.py)
+  - [Recursion](python/Recursion.py)
+
+## MCS-142 : Computer Science II
+  - Sorting Algorithms
+    - [Selection Sort](python/Selection_Sort.py) - Simplest sorting impl compares each element to the entire list
+    - [Merge Sort](python/Merge_Sort.py) - Recursively  splits up list then merges lists back together sorting them as they are merged.
+    - [Quick Sort](python/Quick_Sort.py) - Sorts by selecting a pivot and recursively sorts sub lists.
+  - [Recursion](python/Recursion.py)
+  - [Binary Trees](java/BinarySearchTree.java)
+  - [Directed Graph](java/TopologicalSort.java)
