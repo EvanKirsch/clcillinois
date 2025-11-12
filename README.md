@@ -11,9 +11,9 @@ Scripts and examples for use at clc
     - [Quick Sort](python/Quick_Sort.py) - Sorts by selecting a pivot and recursively sorts sub lists.
 
 ## CIT-141 : Programming in C++
-  - [Hello World](c/hello) - quick example to get you past the main method syntax and makefile
-  - [Pointers](c/ptr) - example of pointers and dereferencing
-  - [File I/O](c/ptr/main.c) - see `in_file` and `out_file` for examples of File I/O
+  - [Hello World](c/hello) - Quick example to get you past the main method syntax and makefile
+  - [Pointers](c/ptr) - Example of pointers and dereferencing
+  - [File I/O](c/ptr/main.c) - See `in_file` and `out_file` for examples of File I/O
 
 ## CIT-142 : Programming in Python
   - [User inputs](python/Cli_io.py)
