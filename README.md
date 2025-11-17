@@ -18,8 +18,30 @@ Scripts and examples for use at clc
 
 ## CIT-141 : Programming in C++
   - [Hello World](c/hello) - Quick example to get you past the main method syntax and makefile
-  - [Pointers](c/ptr) - Example of pointers and dereferencing
   - [File I/O](c/ptr/main.c) - See `in_file` and `out_file` for examples of File I/O
+  - Control Structures
+    - TODO - If/else
+    - TODO - One/two way selection
+    - TODO - Boolean expressions
+    - TODO - Logical operators
+    - TODO - Order of precedence
+    - TODO - For Loop
+    - TODO - Do While Loop
+    - TODO - Break and continue
+  - Functions
+    - TODO - Void/value returning functions  
+    - TODO - Pass by reference/pass by value
+    - TODO - Overloading
+    - TODO - Defualt parameters
+    - TODO - Local vs. global variables
+  - TODO - Enums
+  - TODO - Namespaces
+  - TODO - Arrays
+  - TODO - Structs
+  - TODO - Inheritance/Composition   
+  - [Pointers](c/ptr) - Example of pointers and dereferencing
+  - TODO - Exceptions
+  - [Recursion](python/Recursion.py)
 
 ## CIT-142 : Programming in Python
   - [User inputs](python/Cli_io.py)
