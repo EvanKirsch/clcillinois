@@ -16,9 +16,12 @@ public class Main {
         }};
 
         List<Integer> selectList = new ArrayList<>(startingList);
-        System.out.println(startingList);
         sorter.sortList(selectList);
-        System.out.println(selectList);
+
+        sorter = factory.getSorter(SorterType.QUICK_SORT);
+
+        List<Integer> quickList = new ArrayList<>(startingList);
+        sorter.sortList(quickList);
 
     }
 
