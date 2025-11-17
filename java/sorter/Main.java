@@ -23,6 +23,10 @@ public class Main {
         List<Integer> quickList = new ArrayList<>(startingList);
         sorter.sortList(quickList);
 
+        sorter = factory.getSorter(SorterType.MERGE_SORT);
+        List<Integer> mergeList = new ArrayList<>(startingList);
+        sorter.sortList(mergeList);
+
     }
 
 }
