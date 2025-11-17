@@ -3,7 +3,7 @@ import java.util.List;
 public class SelectionSortImpl implements ISorter {
 
     @Override
-    public <T extends Comparable<T>> List<T> sortList(List<T> list) {
+    public <T extends Comparable<T>> void sortList(List<T> list) {
         System.out.println("Start Selection Sort Implementation");
         int i = 0;
         while (i < list.size()) {
@@ -28,7 +28,7 @@ public class SelectionSortImpl implements ISorter {
             i++; 
         }
         System.out.println("End Selection Sort Implementation");
-        return list;
+        return;
     }
 
 }

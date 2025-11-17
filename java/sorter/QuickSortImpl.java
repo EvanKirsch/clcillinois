@@ -3,21 +3,21 @@ import java.util.List;
 public class QuickSortImpl implements ISorter {
 
     @Override
-    public <T extends Comparable<T>> List<T> sortList(List<T> list) {
+    public <T extends Comparable<T>> void sortList(List<T> list) {
         System.out.println("Start Quick Sort Implementation");
-        List<T> foundList = quickSortRecursive(list, 0, list.size()-1);
+        quickSortRecursive(list, 0, list.size()-1);
         System.out.println("End Quick Sort Implementation");
-        return foundList;
+        return;
     }
 
-    private <T extends Comparable<T>> List<T> quickSortRecursive(List<T> list, int left, int right) {
+    private <T extends Comparable<T>> void quickSortRecursive(List<T> list, int left, int right) {
         System.out.println("  " + list);
         if(left < right) {
             int splitLocation = partition(list, left, right);
             quickSortRecursive(list, left, splitLocation - 1);
             quickSortRecursive(list, splitLocation + 1, right);
         }
-        return list;
+        return;
     }
 
     private <T extends Comparable<T>> int partition(List<T> list, int left, int right) {
