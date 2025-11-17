@@ -39,7 +39,9 @@ Scripts and examples for use at clc
     - [Java Example](java/BinarySearchTree.java) - See the method `find(long, int)`. This method is calling itself to navigate through the tree
     - [Python Examples](python/Recursion.java) 
   - [Arrays](java/MaximumFinder.java)
-  - [File I/O](java/DecodeTape/DecodeTape.java) - This reads in the file `tape.test.in.txt`
+  - Working With Strings
+    - [File I/O](java/DecodeTape/DecodeTape.java) - This reads in the file `tape.test.in.txt`
+    - [CLI](java/Prime.java)- This reads a variable given by the user from `System.in`
   - OOP Principles
     - [Sort Interface](java/sorter/ISorter.java) - Interfaces play an important role in dependancy inversion and injection
       - [Merge Sort Implemention](java/sorter/MergeSortImpl.java)
