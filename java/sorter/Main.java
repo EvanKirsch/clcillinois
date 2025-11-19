@@ -8,6 +8,8 @@ public class Main {
         SimpleSorterFactory factory = new SimpleSorterFactory();
         List<Integer> startingList = new ArrayList<>() {{
             add(2);
+            add(101);
+            add(11);
             add(4);
             add(10);
             add(3);

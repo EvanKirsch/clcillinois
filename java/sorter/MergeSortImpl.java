@@ -7,12 +7,14 @@ public class MergeSortImpl implements ISorter {
     @Override
     public <T extends Comparable<T>> void sortList(List<T> list) {
         System.out.println("Start Merge Sort Implemention");
+        System.out.println(list);
         mergeSort(list);
         System.out.println("End Merge Sort Implemention");
     }
 
     public <T extends Comparable<T>> void mergeSort(List<T> list) {
-        if(list.size() == 1) {
+        if (list.size() == 1) {
+            System.out.println(list);
             return;
         }
 
@@ -27,8 +29,8 @@ public class MergeSortImpl implements ISorter {
         int leftIndex = 0;
         int sortIndex = 0;
 
-        while(rightIndex < rightList.size() && leftIndex < leftList.size()) {
-            if(leftList.get(leftIndex).compareTo(rightList.get(rightIndex)) < 0) {
+        while (rightIndex < rightList.size() && leftIndex < leftList.size()) {
+            if (leftList.get(leftIndex).compareTo(rightList.get(rightIndex)) < 0) {
                 list.set(sortIndex, leftList.get(leftIndex));
                 leftIndex++;
 
