@@ -34,10 +34,9 @@ Scripts and examples for use at clc
     - TODO - Defualt parameters
     - TODO - Local vs. global variables
   - TODO - Enums
-  - TODO - Namespaces
-  - TODO - Arrays
   - TODO - Structs
-  - TODO - Inheritance/Composition   
+  - [Arrays](cpp/palindrome/palindrome.cpp) - Strings are really just arrays of chars
+  - [Composition](c/ptr) - `.c`/`.cpp` files should have `.h` files. `.h` files define the interface other classes are allowed to interact with the class.
   - [Pointers](c/ptr) - Example of pointers and dereferencing
   - TODO - Exceptions
   - [Recursion](python/Recursion.py)
