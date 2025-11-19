@@ -17,7 +17,7 @@ Scripts and examples for use at clc
     - [Quick Sort](python/Quick_Sort.py) - Sorts by selecting a pivot and recursively sorts sub lists.
 
 ## CIT-141 : Programming in C++
-  - [Hello World](c/hello) - Quick example to get you past the main method syntax and makefile
+  - [Hello World](cpp/hello.cpp) - Quick example to get you past the main method syntax and makefile
   - [File I/O](c/ptr/main.c) - See `in_file` and `out_file` for examples of File I/O
   - Control Structures
     - TODO - If/else
