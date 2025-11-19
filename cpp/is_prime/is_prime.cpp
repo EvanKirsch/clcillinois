@@ -8,28 +8,37 @@ int isPrime(int x) {
  printf("-----------------\n");
  if (x == 1) {
     printf("1 is not prime. By definition!");
+
   } else if(x < 1) {
     printf("Error: %d is less than 1!\n", x);
+
   } else {
     int n = 2;
     int divs = 0;
     printf("Checking: %d\n", x);
     while (n < x) {
       if (x % n == 0) {
-	    printf("Divisible by %d\n", n);
-	    divs++;
+	      printf("Divisible by %d\n", n);
+	      divs++;
+
       }
       n++;
+
     }
     if (divs == 0) {
       printf("%d is Prime!\n", x);
+
     } else {
       if (divs == 1) {
-	    printf("%d is Composite! (1 divisor)\n", x);
+	      printf("%d is Composite! (1 divisor)\n", x);
+
       } else {
-	    printf("%d is Composite! (%i divisors)\n", x, divs);
+	      printf("%d is Composite! (%i divisors)\n", x, divs);
+
       }
+
     }
+
   }
   return 0;
 }
