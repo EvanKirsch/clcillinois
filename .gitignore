@@ -10,3 +10,4 @@ c/ptr/statistics.txt
 # C/Cpp compiled files
 c/*/main
 *.o
+*.out
