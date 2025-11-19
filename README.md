@@ -25,7 +25,7 @@ Scripts and examples for use at clc
     - [Logical operators](cpp/is_prime/is_prime.cpp) - see `is_prime.isPrime(int)`
     - [For Loop](cpp/is_prime/is_prime.cpp) - see `is_prime.main(int, char**)`
     - [Order of precedence](https://en.cppreference.com/w/cpp/language/operator_precedence.html) - when in doubt, use parenthese 
-    - TODO - Do While Loop
+    - [Do While](cpp/palindrome/palindrome.cpp) - see input buffer reading.
     - TODO - Break and continue
   - Functions
     - TODO - Void/value returning functions  
