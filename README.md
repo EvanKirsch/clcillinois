@@ -58,7 +58,10 @@ Scripts and examples for use at clc
     - [For Loops](java/MaximiumFinder.java) - See the for loop of `findMaxiumim()`
     - [While Loops](java/Prime.java) - See the while loop of `isPrime()`
   - Recursion
-    - [Java Example](java/BinarySearchTree.java) - See the method `find(long, int)`. This method is calling itself to navigate through the tree
+    - Java Examples
+      - [Navigating Bianary Trees](java/BinarySearchTree.java) - See the method `find(long, int)`. This method is calling itself to navigate through the tree
+      - [Merge Sort](java/sorter/MergeSortImpl.java) 
+      - [Quick Sort](java/sorter/QuickSortImpl.java) 
     - [Python Examples](python/Recursion.java) 
   - [Arrays](java/MaximumFinder.java)
   - Working With Strings
