@@ -1,7 +1,8 @@
 public class SimpleSorterFactory {
 
-    ISorter getSorter(SorterType impl) {
+    ISorter getSorter(String strImpl) {
         ISorter mySorter;
+        SorterType impl = SorterType.valueOf(strImpl.toUpperCase());
         if(SorterType.MERGE_SORT.equals(impl)) {
             mySorter = new MergeSortImpl();
 
