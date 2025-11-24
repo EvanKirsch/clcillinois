@@ -53,7 +53,7 @@ Scripts and examples for use at clc
   - [Method Calls](java/Prime.java) - See the call and return of `isPrime()`
   - [Conditionals](java/Prime.java) - See the if/else contition of `isPrime()` in the while loop
   - Loops
-    - [For Loops](java/MaximiumFinder.java) - See the for loop of `findMaxiumim()`
+    - [For Loops](java/MaximumFinder.java) - See the for loop of `findMaximum()`
     - [While Loops](java/Prime.java) - See the while loop of `isPrime()`
   - Recursion
     - Java Examples
