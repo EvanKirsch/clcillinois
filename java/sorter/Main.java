@@ -3,9 +3,28 @@ import java.util.ArrayList;
 
 public class Main {
 
-    public static void main(String[] args) {
+    private final ISimpleSorterFactory factory;
+    private final SorterPropertiesSingleton sps;
 
-        SimpleSorterFactory factory = new SimpleSorterFactory();
+    public Main(ISimpleSorterFactory factory, SorterPropertiesSingleton sps) {
+        this.factory = factory;
+        this.sps = sps;
+    }
+
+    public static void main(String[] args) {
+        // In our example we are using a main. Enterprise applications would have a framework running that would make 
+        //   the dependency injection less intrusive and more valueable
+        ISimpleSorterFactory factory = new SimpleSorterFactory();  // Specify the implementation of the ISimpleSorterFactory to use SimpleSorterFactory
+        SorterPropertiesSingleton sps = SorterPropertiesSingleton.getInstance(); // this is still pretty tightly coupled. Wrapping in an instaniable proxy is a common pattern to avoid this issue
+
+        // Inject our dependencys into a Main implemention
+        Main dependencyInjectedMain = new Main(factory, sps);
+        dependencyInjectedMain.doMain();
+    }
+
+    // Notice how rather than instaniating a concreate implementation of the SimpleSorterFactory or SorterPropertiesSingleton 
+    //   we are injecting our implementions in the instaniation of the object 
+    public void doMain() {
         List<Integer> startingList = new ArrayList<>() {{
             add(2);
             add(101);
@@ -16,7 +35,9 @@ public class Main {
             add(1);
         }};
 
-        ISorter sorter = factory.getSorter(args[0]);
+        String sorterImpl = sps.getSorterImplemetion();
+
+        ISorter sorter = factory.getSorter(sorterImpl);
         List<Integer> selectList = new ArrayList<>(startingList);
         sorter.sortList(selectList);
 

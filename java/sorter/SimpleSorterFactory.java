@@ -1,6 +1,7 @@
-public class SimpleSorterFactory {
+public class SimpleSorterFactory implements ISimpleSorterFactory {
 
-    ISorter getSorter(String strImpl) {
+    @Override
+    public ISorter getSorter(String strImpl) {
         ISorter mySorter;
         SorterType impl = SorterType.valueOf(strImpl.toUpperCase());
         if(SorterType.MERGE_SORT.equals(impl)) {
