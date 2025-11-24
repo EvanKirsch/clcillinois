@@ -7,13 +7,16 @@
   1. Design and composition can faclitate extensibility 
 
 ## Design Pattern Examples:
-### Factory Method Pattern - `SimpleSorterFactory.java`
+### Factory Method Pattern - [`SimpleSorterFactory.java`](SimpleSorterFactory.java)
   This is an implemention of the "Factory Method" pattern, one method is called and an instatiated implemention is returned. The calling code has no knowedge of the implemetion used, but rather simply interacts with the iterface. This allows us to do some awesome things - like substatially alter the programs functionality without re-building the application.
 
-### Singleton - `SorterPropertiesSingleton.java`
+### Singleton - [`SorterPropertiesSingleton.java`](SorterPropertiesSingleton.java)
   The singleton design pattern is used prolifically in many enterprise systems. Here it is used in a rather mundane way to ensure all access to the properties file go through a single object. While in this example it may seem overkill - at scale this design pattern ensures cordnation accross the system.
 
-  However, the singleton design pattern is not without fault. The pattern iteslf violates the Single Resposiblity Principle as the class is both resposible for controlling its own instantiation and loading properties. This could become problamatic for us in our sorter example if we were to write test for the `Main.main()` method - would want to be able to inject our own implemation of the `SorterPropertiesSingleton` to segment our testing.
+  However, the singleton design pattern is not without fault. The pattern iteslf violates the Single Resposiblity Principle as the class is both resposible for controlling its own instantiation and loading properties. This could become problamatic for us in our sorter example if we were using a framework that required defualt constructors to inject dependencies
+
+### Proxy - [`SorterPropertiesProxy.java`](SorterPropertiesProxy.java)
+  The proxy design pattern is useful for controlling access to an object or when the access provides additional functionality. In our example, the use of the singleton pattern created a (hypothetical) issue of being unable to inject a class without a defualt constructor. Our solution to the problem is to wrap the singleton's implemention in a proxy that _can_ be instatiated. This allows us to fufuill the requirment of being able to instaniate the injected dependency and allows us to manage access through a singleton 
 
 ## SOLID Priciples:
 - S - Single Resposibility Principle

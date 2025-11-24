@@ -1,7 +1,7 @@
 import java.util.Properties;
 import java.io.FileInputStream;
 
-public class SorterPropertiesSingleton {
+public class SorterPropertiesSingleton implements ISorterProperties {
 
     private static SorterPropertiesSingleton instance;
     private Properties properties;
@@ -27,6 +27,7 @@ public class SorterPropertiesSingleton {
         return instance;
     }
 
+    @Override
     public String getSorterImplemetion() {
         return properties.getProperty("sorter.implemention");
     }

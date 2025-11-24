@@ -4,21 +4,21 @@ import java.util.ArrayList;
 public class Main {
 
     private final ISimpleSorterFactory factory;
-    private final SorterPropertiesSingleton sps;
+    private final ISorterProperties sorterProperties;
 
-    public Main(ISimpleSorterFactory factory, SorterPropertiesSingleton sps) {
+    public Main(ISimpleSorterFactory factory, ISorterProperties sorterProperties) {
         this.factory = factory;
-        this.sps = sps;
+        this.sorterProperties = sorterProperties;
     }
 
     public static void main(String[] args) {
         // In our example we are using a main. Enterprise applications would have a framework running that would make 
         //   the dependency injection less intrusive and more valueable
         ISimpleSorterFactory factory = new SimpleSorterFactory();  // Specify the implementation of the ISimpleSorterFactory to use SimpleSorterFactory
-        SorterPropertiesSingleton sps = SorterPropertiesSingleton.getInstance(); // this is still pretty tightly coupled. Wrapping in an instaniable proxy is a common pattern to avoid this issue
+        ISorterProperties sorterProperties = new SorterPropertiesProxy(); // using proxy to access singleton to allow for more control over the objects creation
 
         // Inject our dependencys into a Main implemention
-        Main dependencyInjectedMain = new Main(factory, sps);
+        Main dependencyInjectedMain = new Main(factory, sorterProperties);
         dependencyInjectedMain.doMain();
     }
 
@@ -35,7 +35,7 @@ public class Main {
             add(1);
         }};
 
-        String sorterImpl = sps.getSorterImplemetion();
+        String sorterImpl = sorterProperties.getSorterImplemetion();
 
         ISorter sorter = factory.getSorter(sorterImpl);
         sorter.sortList(list);
