@@ -4,6 +4,12 @@
 #include <iostream>
 using namespace std;
 
+/** 
+ * @brief prints if a number is prime or its composites
+ * @details This is a good example of control structures in c++
+ * @param[in] x - the number to identify primeness of
+ * @return the function always returns 0
+ */
 int isPrime(int x) {
  printf("-----------------\n");
  if (x == 1) {
@@ -43,6 +49,13 @@ int isPrime(int x) {
   return 0;
 }
 
+/** 
+ * @brief application entry point
+ * @details takes in argc numbers, for each of the numbers provided executes `isPrime()`
+ * @param[in] argc - the number of arguments
+ * @param[in] argv - arguments, a list of numbers
+ * @return the function always returns 0
+ */
 int main(int argc, char **argv) {
   int i;
   for (i = 1; i < argc; i++) {

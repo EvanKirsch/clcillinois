@@ -7,6 +7,14 @@
 char* read_str(char s[]);
 int is_palindrome(char* word);
 
+/** 
+ * @brief application entry point
+ * @details takes in argc buffers seperated by new lines, for each of the buffers provided, 
+ *   executes `is_palendrome()` and prints a summary of the buffers anylized
+ * @param[in] argc - the number of arguments
+ * @param[in] argv - arguments, buffers seperated by new lines
+ * @return the function always returns 0
+ */
 int main(int argc, char **argv) {
   char *fgets_rtn = NULL;
   char buffer[LINELEN];
@@ -45,6 +53,14 @@ int main(int argc, char **argv) {
   return 0;
 }
 
+/** 
+ * @brief determines if a char* is a palindrome
+ * @details takes in a char* and determines if the first half of the string mirrors the second half
+ * @param[in] word - char*, string to anylize
+ * @return  -1 - if the string provided is not a palindrome
+ * @return  0 - if the length of the string provided is 0.
+ * @return  1 - if the string provided is a palindrome
+ */
 int is_palindrome(char*  word) {
   int len = strlen(word);
   int op = len/2;
@@ -71,6 +87,12 @@ int is_palindrome(char*  word) {
   return 1;
 }
 
+/** 
+ * @brief cleans chars* read from buffer
+ * @details removes special chars and newlines from string and returns string 
+ * @param[in, out] s - char* s
+ * @return s - if the string provided is not a palindrome
+ */
 char* read_str(char s[]) {
   int len = strlen(s);
   int i;
