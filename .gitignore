@@ -1,3 +1,6 @@
+# ide configs
+.vscode/
+
 # Python files
 python/__pycache__/
 
