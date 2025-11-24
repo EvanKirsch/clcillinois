@@ -6,6 +6,7 @@ python/__pycache__/
 
 # Output files
 c/ptr/statistics.txt
+test.txt
 
 # C/Cpp compiled files
 c/*/main

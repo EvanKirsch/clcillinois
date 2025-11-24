@@ -27,5 +27,6 @@ public class DecodeTape {
             System.out.print(acii);
             line = s.nextLine();
         }
+        s.close();
     }
 }

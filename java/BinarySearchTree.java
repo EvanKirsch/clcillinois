@@ -1,5 +1,4 @@
 import java.io.*;
-import java.util.*;
 
 public class BinarySearchTree {
     //Implements a binary search tree of ints stored in a random access file.
