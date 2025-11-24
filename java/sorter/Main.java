@@ -25,7 +25,7 @@ public class Main {
     // Notice how rather than instaniating a concreate implementation of the SimpleSorterFactory or SorterPropertiesSingleton 
     //   we are injecting our implementions in the instaniation of the object 
     public void doMain() {
-        List<Integer> startingList = new ArrayList<>() {{
+        List<Integer> list = new ArrayList<>() {{
             add(2);
             add(101);
             add(11);
@@ -38,8 +38,7 @@ public class Main {
         String sorterImpl = sps.getSorterImplemetion();
 
         ISorter sorter = factory.getSorter(sorterImpl);
-        List<Integer> selectList = new ArrayList<>(startingList);
-        sorter.sortList(selectList);
+        sorter.sortList(list);
 
     }
 
