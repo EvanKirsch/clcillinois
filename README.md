@@ -16,7 +16,7 @@ Scripts and examples for use at clc
     - [Merge Sort](python/Merge_Sort.py) - Recursively  splits up list then merges lists back together sorting them as they are merged.
     - [Quick Sort](python/Quick_Sort.py) - Sorts by selecting a pivot and recursively sorts sub lists.
 
-## CIT-139 CCNA-1
+## CIT-139 : CCNA-1
   - TODO
 
 ## CIT-141 : Programming in C++
