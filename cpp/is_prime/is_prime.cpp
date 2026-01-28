@@ -11,8 +11,8 @@ using namespace std;
  * @return the function always returns 0
  */
 int isPrime(int x) {
- printf("-----------------\n");
- if (x == 1) {
+  printf("-----------------\n");
+  if (x == 1) {
     printf("1 is not prime. By definition!");
 
   } else if(x < 1) {
