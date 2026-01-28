@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int total_function_calls = 0;
+int total_function_calls = 0;  // global variable
 
 /** 
  * @brief increments total_function_calls
@@ -9,7 +9,7 @@ int total_function_calls = 0;
  * @return void 
  */
 void add_to_total_function_calls() {
-  total_function_calls = total_function_calls + 1;
+  total_function_calls = total_function_calls + 1;                          // total_function_calls is a global variable, this is why we don't need to return it
   printf("  called function, increment to %d\n", total_function_calls);
 }
 
@@ -20,7 +20,7 @@ void add_to_total_function_calls() {
  * @return the incremented value of value_total_function_calls
  */
 int add_to_total_function_calls(int value_total_function_calls) {
-  value_total_function_calls = value_total_function_calls + 1;
+  value_total_function_calls = value_total_function_calls + 1;                 // value_total_function_calls is a local variable
   printf("  called function, increment to %d\n", value_total_function_calls);
   return value_total_function_calls;
 }

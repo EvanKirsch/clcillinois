@@ -35,7 +35,9 @@ Scripts and examples for use at clc
     - TODO - Pass by reference/pass by value
     - [Overloading](cpp/functions/functions.cpp) - see overloaded `add_to_total_function_calls()` function
     - TODO - Defualt parameters
-    - TODO - Local vs. global variables
+    - [Local vs. global variables](cpp/functions/functions.cpp) 
+      - `total_function_calls` is an example of a global variable, everything in the scope of the program is able to access it
+      - `value_total_function_calls` is an example of a local variable, it is only accessable in a limited scope. In this case, the function it is in.
   - TODO - Enums
   - TODO - Structs
   - [Arrays](cpp/palindrome/palindrome.cpp) - Strings are really just arrays of chars
