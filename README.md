@@ -16,6 +16,9 @@ Scripts and examples for use at clc
     - [Merge Sort](python/Merge_Sort.py) - Recursively  splits up list then merges lists back together sorting them as they are merged.
     - [Quick Sort](python/Quick_Sort.py) - Sorts by selecting a pivot and recursively sorts sub lists.
 
+## CIT-139 CCNA-1
+  - TODO
+
 ## CIT-141 : Programming in C++
   - [Hello World](cpp/hello/hello.cpp) - Quick example to get you past the main method syntax and makefile
   - [File I/O](c/ptr/main.c) - See `in_file` and `out_file` for examples of File I/O
