@@ -31,9 +31,9 @@ Scripts and examples for use at clc
     - [Do While](cpp/palindrome/palindrome.cpp) - see input buffer reading.
     - TODO - Break and continue
   - Functions
-    - TODO - Void/value returning functions  
+    - [Void/value returning functions](cpp/functions/functions.cpp) - see `main()`
     - TODO - Pass by reference/pass by value
-    - TODO - Overloading
+    - [Overloading](cpp/functions/functions.cpp) - see overloaded `add_to_total_function_calls()` function
     - TODO - Defualt parameters
     - TODO - Local vs. global variables
   - TODO - Enums
