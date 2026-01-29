@@ -1,5 +1,5 @@
-import	java.io.*;
-import	java.util.*;
+import java.io.*;
+import java.util.*;
 
 public class TopologicalSort {
     //Adjacency list representation of a directed graph
