@@ -21,6 +21,7 @@ Scripts and examples for use at clc
 
 ## CIT-141 : Programming in C++
   - [Hello World](cpp/hello/hello.cpp) - Quick example to get you past the main method syntax and makefile
+  - [Standard in/out](cpp/hello/hello_j_doe.cpp) - example of using `cin` and `cout` to read and print output
   - [File I/O](c/ptr/main.c) - See `in_file` and `out_file` for examples of File I/O
   - Control Structures
     - [If/else](cpp/is_prime/is_prime.cpp) - see `is_prime.isPrime(int)`
