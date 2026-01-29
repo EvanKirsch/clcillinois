@@ -12,20 +12,20 @@ public class Prime {
     }
 
     public static boolean isPrime(int number){
-		if (number <= 1) {
-			return false;
+        if (number <= 1) {
+            return false;
         }
-		int c = 2;
-		int mod;
-		while (c < number) {
-			mod = number % c;
-			if (mod == 0) { 
-			   return false;
+        int c = 2;
+        int mod;
+        while (c < number) {
+            mod = number % c;
+            if (mod == 0) { 
+               return false;
             } else {
                 c++;
             }
-		}
-		return true;
-	}
+        }
+        return true;
+    }
 
 }
