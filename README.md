@@ -54,6 +54,9 @@ Scripts and examples for use at clc
     - [While Loops](python/While_Loops.py)
   - [Recursion](python/Recursion.py)
 
+## CIT-171 : Webpage Scripting
+  - TODO - see [js directory](js/). Demoing in the container requires running a http server. See [js README](js/tasker/README.md) for instructions on starting the http server in the container and viewing the running application
+
 ## MCS-141 : Computer Science I
   - [Hello World](java/HelloWorld.java)
   - [Method Calls](java/Prime.java) - See the call and return of `isPrime()`
