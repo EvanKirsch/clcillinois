@@ -1,4 +1,4 @@
-# clcillinois
+# College of Lake County Tutoring Center CIT/MCS Resource Directory
 Scripts and examples for use at clc
 
 ## CIT-132 : Intro to Linux
