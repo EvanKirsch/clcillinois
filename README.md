@@ -1,6 +1,9 @@
 # College of Lake County Tutoring Center CIT/MCS Resource Directory
 Scripts and examples for use at clc
 
+## CIT-113 : Intro to SQL
+  - [Entity Reationship Arrow Cheatsheet](https://i.sstatic.net/2p4Tv.png)
+
 ## CIT-132 : Intro to Linux
   - [Command Cheat Sheet](unix-reference.pdf)
   - The Unix Philosophy
